@@ -40,7 +40,9 @@ figure {
   100%  {background-position: -300px 0px;}
 }
 
-
+#navbarNavDropdown{
+    color: white;
+}
 
 #iconeAdmin{
     color: rgba(15, 13, 15, 0.5);
@@ -48,14 +50,6 @@ figure {
 #iconeAdmin:hover{
     color: rgba(216, 131, 34, 0.5);
 }
-.about{
-    padding-top: 50px;
-    background-image: url("../images/famille.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30em;
-}
-
 #divTitre{
    
     background-size: cover;
@@ -195,19 +189,23 @@ iframe{
 }
 
 #apropos{
-    z-index: 2;
-    font-size: 1.5em;
-    margin-top: 105px;
-    margin-bottom: 105px;
-    float: inline-start;
    
+    font-size: 1.9em;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
 }
-#img_apropos{
-    position: absolute;
-    opacity:0.2 ;
-    z-index: -1;
-    background-size: cover;
+#h1apropos{
+    font-size: 1.9em;
 }
+#body{
+    background-image: url("../images/portail-famille2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
 #table{
     border: solid 2px;
 }
