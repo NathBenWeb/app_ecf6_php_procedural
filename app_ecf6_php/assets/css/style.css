@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Satisfy');
+
+#header2, #header, #footer, #footer2,#brandH, #brandH2, #brandF, #brandF2, #cr, #cr2{
+    font-family: 'Satisfy', cursive;
+}
+#brandF, #brandF2{
+    font-size: 25px;
+}
+#nav{
+    font-family: 'Satisfy', cursive;
+}
+article {
+  width: 70%;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.h1Brand {
+  font-size: 4em;
+  font-family: 'Satisfy', cursive;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 44% 0 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background: url(http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg);
+  background-repeat: no-repeat;
+  animation: clouds_animation 10s linear infinite;
+}
+
+@keyframes clouds_animation {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -300px 0px;}
+}
+
+
+
+#iconeAdmin{
+    color: rgba(15, 13, 15, 0.5);
+}
+#iconeAdmin:hover{
+    color: rgba(216, 131, 34, 0.5);
+}
+.about{
+    padding-top: 50px;
+    background-image: url("../images/famille.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+#divTitre{
+   
+    background-size: cover;
+}
+#h1Brand{
+    font-size: 4em;
+}
+#description{
+        width: 100%;
+        height: 400px;
+        overflow-y: scroll;
+}
+#description::-webkit-scrollbar{
+    width: 12px;
+}
+#description::-webkit-scrollbar-track{
+    background: rgba(139,199,222);
+    border: 1px solid black;
+}
+#description::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 30px;       /* roundness of the scroll thumb */
+    border: 1px solid black;  /* creates padding around scroll thumb */
+  }
+
+#card{
+    border: solid 5px black;
+}
+#loupe{
+    color: orange;
+}
+#connex, #inscr{
+    border: solid 3px black;
+}
+#inscription{
+    
+    width: 50%;
+    border: dotted;
+    padding: 30px;
+    padding-bottom: 14px;
+}
+#contact{
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: dotted;
+    margin-left: 50px;
+    padding-top: 30px;
+   
+}
+#titreInscription{
+    text-align: center;
+    color:rgb(87, 81, 81);
+    font-size: 40px;
+}
+#titreContact{
+   
+    text-align: center;
+    color:rgb(87, 81, 81);
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+
+}
+#titreImg{
+    text-align: center;
+}
+
+#contact_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 50px;
+   
+   
+}
+.telEmail{
+    
+    padding-bottom: 50px;
+}
+.contact-box {
+    width: 100%;
+    padding: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 7px rgba(0,0,0,0.25);
+    align-items: center;
+    
+}
+
+.contact-box .text1 {
+    
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact-box #email {
+    
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.phone {
+    background-color: #3FA8FD;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email {
+    background-color:#2FDC9C;
+    color: white;
+    text-align: center;
+}
+
+#tel, #email{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+#tel:hover, #email:hover{
+    color: rgb(87, 81, 81);
+}
+#email{
+    font-size: 25px;
+    font-weight: bold;
+}
+iframe{
+    margin: 12px 0px 40px 0px;
+}
+.logoContact{
+    font-size: 30px;
+}
+#check, #buttonContact{
+    padding-top: 20px;
+}
+
+#apropos{
+    z-index: 2;
+    font-size: 1.5em;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    float: inline-start;
+   
+}
+#img_apropos{
+    position: absolute;
+    opacity:0.2 ;
+    z-index: -1;
+    background-size: cover;
+}
+#table{
+    border: solid 2px;
+}
+thead{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+#buttonModif{
+    background-color: rgb(32, 184, 121);
+}
+#buttonSup{
+    background-color: red;
+}
